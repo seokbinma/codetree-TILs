@@ -1,0 +1,6 @@
+g = input().split()
+a=int(g[0])
+b= int(g[1])
+c= int(g[2])
+print(a+b+c)
+print((a+b+c)//3)
