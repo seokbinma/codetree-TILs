@@ -1,6 +1,7 @@
-a=2
-b=5
-print(a+b)
-print(a-b)
+arr = input().split()
+a=int(arr[0])
+b=int(arr[1])
+print(int(a+b))
+print(int(a-b))
 print(int(a/b))
-print(a%b)
+print(int(a%b))
