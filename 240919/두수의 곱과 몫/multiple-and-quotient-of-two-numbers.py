@@ -1,0 +1,6 @@
+a =input().split()
+b=int(a[0])
+c=int(a[1])
+d=int(b*c)
+e=int(b/c)
+print(f"{b} * {c} = {d}\n{b} / {c} = {e}")
