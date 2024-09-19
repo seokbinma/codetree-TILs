@@ -1,0 +1,9 @@
+a=5
+b=6
+c=7
+temp=a
+temp2=b
+b=a
+a=c
+c=temp2
+print(f"{a}\n{b}\n{c}")
