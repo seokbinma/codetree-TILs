@@ -4,7 +4,7 @@ b= int(num[1])
 
 
 #대수 비교
-if a > b:
+if a >= b:
     print(0, end=" ")
 else:
     print(1, end=" ")
