@@ -4,6 +4,6 @@ if n ==1:
 elif n==2:
     print("Tom")
 elif n==3:
-    print("paul")
+    print("Paul")
 else:
     print("Vacancy")
