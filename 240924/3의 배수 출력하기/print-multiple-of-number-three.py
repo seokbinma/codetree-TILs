@@ -1,7 +1,7 @@
 n= int(input())
 i=1
 s=0
-while s < n-1:
-    s= i*3
+while s <= n-3:
+    s=3*i
     print(s,end=" ")
-    i= i+1
+    i+=1
