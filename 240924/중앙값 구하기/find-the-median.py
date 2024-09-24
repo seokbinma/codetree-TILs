@@ -6,5 +6,5 @@ if (a>b and a<c) or (a<c and a>b):
     print(a)
 elif (b>a and b<c) or (b<c and b>a):
     print(b)
-else:
+elif (c>b and c<a) or (a<c and c<b):
     print(c)
