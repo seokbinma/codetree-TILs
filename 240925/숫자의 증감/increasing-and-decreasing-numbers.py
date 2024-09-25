@@ -8,5 +8,5 @@ if a=="A":
         print(i,end=" ")
 else:
     i=0
-    for i in range(n,1,-1):
+    for i in range(n,0,-1):
         print(i,end=" ")
