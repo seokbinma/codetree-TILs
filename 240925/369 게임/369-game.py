@@ -9,5 +9,7 @@ for i in range(1,num+1):
         print(0,end=" ")
     elif '9' in sn:
         print(0,end=" ")
+    elif i%3 == 0:
+        print(0,end=" ")
     else:
         print(i,end=" ")
