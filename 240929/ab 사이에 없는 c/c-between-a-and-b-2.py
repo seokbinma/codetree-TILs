@@ -1,9 +1,9 @@
 n = input().split()
 a,b,c= int(n[0]),int(n[1 ]),int(n[2])
-d='NO'
+d='YES'
 
 for i in range (a,b+1):
-    if c%i==0:
-        d="YES"
+    if i%c==0:
+        d="NO"
 
 print(d)
