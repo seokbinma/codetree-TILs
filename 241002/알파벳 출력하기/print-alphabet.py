@@ -5,7 +5,7 @@ for i in range(n):
     for j in range(n):
         if chr(a)=="Z":
             a=65
-        if j<=i:
+        elif j<=i:
             print(chr(a),end="")
             a+=1
         
