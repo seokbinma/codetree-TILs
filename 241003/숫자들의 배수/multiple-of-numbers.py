@@ -4,6 +4,8 @@ a.append(n)
 cnt=0
 b=2
 c=1
+if n%5==0:
+    cnt+=1
 while cnt!=2:
     c=n*b
     a.append(c)
