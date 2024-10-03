@@ -1,9 +1,10 @@
 arr= list(map(int,input().split()))
-
-
-for j in reversed(arr):
-    if j==0:
-        pass
+a=[]
+for i in arr:
+    if i==0:
+        break
     else:
+        a.append(i)
 
-        print(j,end=" ")
+for j in reversed(a):
+    print(j,end=" ")
