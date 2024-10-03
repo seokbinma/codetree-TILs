@@ -5,5 +5,5 @@ for i in arr:
     if i ==0:
         break
     else:
-        suma +=i
-print(suma)
+        suma +=1
+print(arr[suma-1]+arr[suma-2]+arr[suma-3])
